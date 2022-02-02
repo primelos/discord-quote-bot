@@ -4,24 +4,13 @@ require("dotenv").config();
 const { REST } = require("@discordjs/rest");
 const { Routes } = require("discord-api-types/v9");
 
-const sadWords = ["sad", "angry", "mad", "hate", "unhappy", "depressed"];
-const encouragment = ["cheer up", "hang in there", "you are a great person"];
+// const sadWords = ["sad", "angry", "mad", "hate", "unhappy", "depressed"];
+// const encouragment = ["cheer up", "hang in there", "you are a great person"];
 
 const commands = [
   {
     name: "ping",
     description: "Replies with Pong!",
-  },
-  {
-    name: "venegas",
-    description: "Carlos Venegas!",
-  },
-  {
-    name: "inspire",
-    description: "quote displayed",
-  },
-  {
-    name: sadWords,
   },
 ];
 // console.log("CLIENT_ID", process.env.CLIENT_ID);
